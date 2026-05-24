@@ -1,0 +1,41 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model files (VERY IMPORTANT)
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Hugging Face / tokenizer files
+tokenizer.json
+tokenizer_config.json
+special_tokens_map.json
+vocab.txt
+config.json
+
+# Dataset / cache
+.cache/
+datasets/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Your trained model folder (IMPORTANT)
+notebooks/bert-sentiment-analysis/
+
+# Optional: ignore test artifacts
+test_outputs/
